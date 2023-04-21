@@ -1,0 +1,41 @@
+{
+  "name": "DeepAI",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#",
+    "light": "#",
+    "dark": "#",
+    "anchors": { "from": "#", "to": "#" }
+  },
+  "topbarCtaButton": {
+    "name": "",
+    "url": ""
+  },
+  "topbarLinks": [
+    {
+      "name": "",
+      "url": ""
+    }
+  ],
+  "anchors": [
+    {
+      "name": "",
+      "icon": "",
+      "url": ""
+    }
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": [""]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "",
+    "linkedin": ""
+  }
+}
