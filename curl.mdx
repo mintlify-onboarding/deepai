@@ -1,0 +1,33 @@
+---
+title: "Text To Image - AI Image Generator cURL Examples"
+sidebarTitle: "cURL"
+---
+
+<CodeGroup>
+
+```bash
+#  Example posting a text URL:
+
+curl \
+    -F 'text=YOUR_TEXT_URL' \
+    -H 'api-key:quickstart-QUdJIGlzIGNvbWluZy4uLi4K' \
+    https://api.deepai.org/api/text2img
+
+
+# Example posting a local text file:
+
+curl \
+    -F 'text=@/path/to/your/file.txt' \
+    -H 'api-key:quickstart-QUdJIGlzIGNvbWluZy4uLi4K' \
+    https://api.deepai.org/api/text2img
+
+
+# Example directly sending a text string:
+
+curl \
+    -F 'text=YOUR_TEXT_HERE' \
+    -H 'api-key:quickstart-QUdJIGlzIGNvbWluZy4uLi4K' \
+    https://api.deepai.org/api/text2img
+```
+
+</CodeGroup>

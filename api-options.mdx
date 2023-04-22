@@ -1,0 +1,33 @@
+---
+title: "API Options"
+---
+
+<ParamField body="grid_size">
+  Pass a string, either "1" or "2" <br />
+  Pass “1” to only receive 1 image in response. <br />
+  With the default, 4 will be returned
+</ParamField>
+
+<ParamField body="width, height" >
+Pass a string, eg "256" or "768" (default 512) <br />
+Use values between 128 and 1536. <br />
+
+<Note>
+  Values above approximately 700 or below 256 may produce strange outputs.
+</Note>
+
+</ParamField>
+
+<ParamField body="negative_prompt">
+  Pass a string to indicate what you want to be removed from the image <br />
+  Can be used to enhance image quality and details.
+
+Example negative prompts: bad anatomy,bad proportions, blurry, cloned face,
+cropped, deformed, dehydrated, disfigured, duplicate, error, extra arms, extra
+fingers, extra legs, extra limbs, fused fingers, gross proportions, jpeg
+artifacts, long neck, low quality, lowres, malformed limbs, missing arms,
+missing legs, morbid, mutated hands, mutation, mutilated, out of frame, poorly
+drawn face, poorly drawn hands, signature, text, too many fingers, ugly,
+username, watermark, worst quality.
+
+</ParamField>
