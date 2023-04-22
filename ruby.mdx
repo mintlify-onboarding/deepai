@@ -1,0 +1,41 @@
+---
+title: "Text To Image - AI Image Generator Ruby Examples"
+sidebarTitle: "Ruby"
+---
+
+```ruby
+# Example posting a text URL:
+
+require 'rest_client'
+r = RestClient::Request.execute(method: :post, url: 'https://api.deepai.org/api/text2img', timeout: 600,
+    headers: {'api-key' => 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'},
+    payload: {
+        'text' => 'YOUR_TEXT_URL',
+    }
+)
+puts r
+
+
+# Example posting a local text file:
+
+require 'rest_client'
+r = RestClient::Request.execute(method: :post, url: 'https://api.deepai.org/api/text2img', timeout: 600,
+    headers: {'api-key' => 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'},
+    payload: {
+        'text' => File.new('/path/to/your/file.txt'),
+    }
+)
+puts r
+
+
+# Example directly sending a text string:
+
+require 'rest_client'
+r = RestClient::Request.execute(method: :post, url: 'https://api.deepai.org/api/text2img', timeout: 600,
+    headers: {'api-key' => 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'},
+    payload: {
+        'text' => 'YOUR_TEXT_HERE',
+    }
+)
+puts r
+```
