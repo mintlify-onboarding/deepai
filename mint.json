@@ -6,36 +6,40 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#",
-    "light": "#",
-    "dark": "#",
-    "anchors": { "from": "#", "to": "#" }
+    "primary": "#B867E4",
+    "light": "#D695FA",
+    "dark": "#4C39AD",
+    "anchors": { "from": "#B867E4", "to": "#4C39AD" }
   },
   "topbarCtaButton": {
-    "name": "",
-    "url": ""
+    "name": "AI Chat",
+    "url": "https://deepai.org/chat"
   },
   "topbarLinks": [
     {
-      "name": "",
-      "url": ""
+      "name": "Log In",
+      "url": "https://deepai.org/"
     }
   ],
   "anchors": [
     {
-      "name": "",
-      "icon": "",
-      "url": ""
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailto:team@deepai.org"
     }
   ],
   "navigation": [
     {
-      "group": "",
-      "pages": [""]
+      "group": "Introduction",
+      "pages": ["api-options", "faq"]
+    },
+    {
+      "group": "Getting Started",
+      "pages": ["curl", "python", "ruby", "csharp"]
     }
   ],
   "footerSocials": {
-    "twitter": "",
-    "linkedin": ""
+    "twitter": "https://twitter.com/Deep__AI",
+    "linkedin": "https://www.linkedin.com/company/deepai/"
   }
 }
