@@ -12,8 +12,8 @@
     "anchors": { "from": "#B867E4", "to": "#4C39AD" }
   },
   "topbarCtaButton": {
-    "name": "AI Chat",
-    "url": "https://deepai.org/chat"
+    "name": "Sign Up",
+    "url": "https://deepai.org/"
   },
   "topbarLinks": [
     {
@@ -23,6 +23,11 @@
   ],
   "anchors": [
     {
+      "name": "AI Chat",
+      "icon": "messages",
+      "url": "https://deepai.org/chat"
+    },
+    {
       "name": "Contact Us",
       "icon": "envelope",
       "url": "mailto:team@deepai.org"
@@ -31,7 +36,7 @@
   "navigation": [
     {
       "group": "Introduction",
-      "pages": ["api-options", "faq"]
+      "pages": ["overview", "api-options", "faq"]
     },
     {
       "group": "Getting Started",
@@ -40,6 +45,7 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/Deep__AI",
-    "linkedin": "https://www.linkedin.com/company/deepai/"
+    "linkedin": "https://www.linkedin.com/company/deepai/",
+    "website": "https://deepai.org/"
   }
 }
